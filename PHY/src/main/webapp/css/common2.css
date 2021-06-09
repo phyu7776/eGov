@@ -1,0 +1,43 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'font-all';
+    font-style: normal;
+    font-weight: 800;
+    color: black;
+    src: url('/font/BMDOHYEON_ttf.ttf') format('truetype');
+}
+*{
+    font-family:'font-all' !important;
+}
+a, a:hover{
+    color: black;
+      text-decoration: none;
+}
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+.menu-font{
+    
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+} 
+p{
+    margin-bottom: 0px !important;
+}
+.table td {
+    text-align: center !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-top: 0px;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+.col-2{
+    padding: 0px !important;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
